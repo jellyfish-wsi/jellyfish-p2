@@ -85,3 +85,26 @@ text fields. We will not implement a select list nor an auto-fill.
 ### No Go
 - No calendars
 - No drag-and-drop features
+
+### Progress Report
+
+#### What We've Done:
+
+We, as a group, have adjusted and finalized Dasha’s pitch from her Project One.
+We have established Basecamp as our means of communication. A separate Basecamp
+project has been created for all the group members as well. A GitHub organization
+with the group repository is established. Each group member has their own personal
+repository that they will be making pull requests from to the main group repository
+to ensure nothing will get messed up without the entire team’s agreement.
+
+#### What We're Doing:
+
+We are currently thinking about what frameworks to use for our web app. We know
+that we will use the three main languages to begin with: HTML, CSS, and JavaScript.
+But anything beyond that we are currently unsure of.
+
+#### What We're Going to Do:
+
+We’re going to come up with meeting times, so we can discuss details and work on
+the project together in person. We will also find time to have a one on one
+meeting with Professor Stolley.
