@@ -10,9 +10,13 @@ regarding the AirBnB booking or the one with the confirmation number to lookup
 flight details.
 
 ### Appetite
-This problem is straightforward and it's important to keep in mind that the solution should not be overcomplicated. The goal now is to create a simple web system where users can log in and view all their upcoming trips with each of its own information. The end product must be straight-forward, clean, and as simple and smart as possible. We want the users to feel that all the important data can be found within the web service we are trying to build.
+The goal now is to create a simple web system where users can log in and view
+all their upcoming trips with each of its own information. The end product must
+be clean, and as simple and smart as possible. We want the users to feel that all
+the important data can be found within the web service we are trying to build.
+Following a six-week term to develop this project, the bare minimum for the full
+system includes:
 
-Following a six-week term to develop this project, the bare minimum for the full system includes:
 - Displayed information of scheduled flight (involves flight data API)
 - A clean and well-structured interface to display trip information
 - A non-exhausting form to fill-in the details of the trip
