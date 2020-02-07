@@ -1,7 +1,13 @@
 # Jellyfish Project Two Pitch
 
 ### Problem
-When travelling, I find that the information for my trip is scattered across many different apps on my phone and this can be tiring when I want to get an overview of my plans. My flight details are on the airline's website or app, while lodging details are in my inbox. It gets exhausting when this is done repeatedly, not to mention, the additional time it takes to search for that one specific email regarding your Airbnb booking or perhaps trying to remember you confirmation number to lookup your flight details. This is quite a simple problem which can be addressed with a simple solution.
+When traveling, one’s information for the trip can get scattered across many
+different apps making it quite hectic to get a simple overview of their plans.
+The flight details will be on the airline’s website or app, while lodging details
+are within the inbox. It gets exhausting when this is done repeatedly, not to
+mention, the additional time it takes to search for that one specific email
+regarding the AirBnB booking or the one with the confirmation number to lookup
+flight details.
 
 ### Appetite
 This problem is straightforward and it's important to keep in mind that the solution should not be overcomplicated. The goal now is to create a simple web system where users can log in and view all their upcoming trips with each of its own information. The end product must be straight-forward, clean, and as simple and smart as possible. We want the users to feel that all the important data can be found within the web service we are trying to build.
