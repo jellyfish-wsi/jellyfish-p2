@@ -20,6 +20,8 @@ system includes:
 - Displayed information of scheduled flight (involves flight data API)
 - A clean and well-structured interface to display trip information
 - A non-exhausting form to fill-in the details of the trip
+- There will only be one transportation record per trip. Multiple transportation
+records will be addressed in future developments.
 
 ### Solution
 My solution is to create a system that would help users view their trip details and compile it in one place for easy access. The important thing about this is making sure that the information is displayed in the simplest and most intuitive manner. The system will allow the user to enter information about the trip with forms. There are three main groups of information when it comes to travel plans: transportation, accommodation, and itinerary. For this project, the focus will be towards transit and lodging. Adding an itinerary of places to visit will be set aside for future development.
@@ -51,9 +53,10 @@ For accommodations, information to be asked from the user would include: name, a
 ### Rabbit Holes
 - 250 requests per month to AeroDataBox is enough to develop the system, otherwise the team would pay $5 a month for up to 5000 requests a month.
 - How do we implement account authorizations (user logins)?
-- Past trips will not be deleted from the database, however they will be minimized and will be put below upcoming trips.
-- For road and rail, the input for the departure and arrival location will be text fields. We will not implement a select list nor an auto-fill.
-- There will only be one transportation record per trip. Multiple transportation records will be addressed un future developments.
+- Past trips will not be deleted from the database, however they will be
+minimized and will be put below upcoming trips.
+- For road and rail, the input for the departure and arrival location will be
+text fields. We will not implement a select list nor an auto-fill.
 
 ### No Go
 - No calendars
