@@ -2,6 +2,13 @@
 
 ## Week of February 17
 
+This week, we took what we learned from Stolley’s lecture on using git and refreshed our memories. We also created a reference sheet on using Git so everyone in the group has an accessible reference based on Stolley’s workflow. Additionally, following what Stolley taught us, we have added rules/restrictions to who is allowed to push commits. Now, a commit cannot get pushed/merged without at least everyone’s approval in the group. Furthermore, we have established that we will use feature branches as we work to organize everything nicely. 
+
+We took this week to familiarize ourselves with using the API and studying its syntax. We will continue our work with this tomorrow as we decide what information we will be asking the user regarding their flight and what data we will be storing from the API. The group meeting with Stolley led us to opt for an SQL database rather than MongoDB. In the context of our project and the data we will be storing for each user, we found that the logic pattern fits better with a relational database instead of a non-relational one. Stolley has also mentioned the use of SQLite as a database. We’re not familiar with this, so we are looking into its implementation and its difference from MySQL. Because we will be going for the SQL database, we are going to pinpoint what our data structure will look like. We will be holding our weekly friday meetings to discuss our next steps.
+
+Our team had a slight bump in the road since we felt like things weren’t fully “clicking” together and couldn’t see the full big picture. Because of this we had a hard time taking our first steps since we didn’t know which direction to approach it. The meeting last Monday was helpful and Stolley advised us to simply start coding from both ends—which we are taking to heart. This week we will start focusing on implementing Express and do some practice work with it. We will also start to write out code in HTML and CSS for what the trip fill-out form would look like based off of the big marker sketches from our pitch. This will help us have a better understanding of the user flow and the necessary fields and data needed to match the user’s need. JavaScript will be integrated in later weeks, after we have most of the interface solidly built.
+
+As for our web application name, we have decided to hold off on choosing one until the beta cycle. So for our alpha cycle, we can focus on working on its core functions and worry about other details in the next cycle per our group’s agreement on what will get done during this alpha cycle.
 
 
 ## Week of February 10
