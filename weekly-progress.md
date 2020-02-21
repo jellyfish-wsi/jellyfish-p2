@@ -2,7 +2,7 @@
 
 ## Week of February 17
 
-This week, we took what we learned from Stolley’s lecture on using git and refreshed our memories. We also created a reference sheet on using Git so everyone in the group has an accessible reference based on Stolley’s workflow. Additionally, following what Stolley taught us, we have added rules/restrictions to who is allowed to push commits. Now, a commit cannot get pushed/merged without at least everyone’s approval in the group. Furthermore, we have established that we will use feature branches as we work to organize everything nicely. 
+This week, we took what we learned from Stolley’s lecture on using git and refreshed our memories. We also created a reference sheet on using Git so everyone in the group has an accessible reference based on Stolley’s workflow. Additionally, following what Stolley taught us, we have added rules/restrictions to who is allowed to push commits. Now, a commit cannot get pushed/merged without at least everyone’s approval in the group. Furthermore, we have established that we will use feature branches as we work to organize everything nicely.
 
 We took this week to familiarize ourselves with using the API and studying its syntax. We will continue our work with this tomorrow as we decide what information we will be asking the user regarding their flight and what data we will be storing from the API. The group meeting with Stolley led us to opt for an SQL database rather than MongoDB. In the context of our project and the data we will be storing for each user, we found that the logic pattern fits better with a relational database instead of a non-relational one. Stolley has also mentioned the use of SQLite as a database. We’re not familiar with this, so we are looking into its implementation and its difference from MySQL. Because we will be going for the SQL database, we are going to pinpoint what our data structure will look like. We will be holding our weekly friday meetings to discuss our next steps.
 
@@ -26,3 +26,26 @@ We have created a new repository strictly for the alpha cycle called alpha-jelly
 Currently, we are deciding on the architecture pattern of our web application. The patterns we are currently considering are: layers pattern, shared-data pattern, and multi-tier pattern. Our goal is to decide by Friday which of these will suit our project best during our meeting.
 
 On a different note, we are also currently brainstorming ideas on what to call our web application.
+
+### Week of February 3
+
+#### What We've Done:
+
+We, as a group, have adjusted and finalized Dasha’s pitch from her Project One.
+We have established Basecamp as our means of communication. A separate Basecamp
+project has been created for all the group members as well. A GitHub organization
+with the group repository is established. Each group member has their own personal
+repository that they will be making pull requests from to the main group repository
+to ensure nothing will get messed up without the entire team’s agreement.
+
+#### What We're Doing:
+
+We are currently thinking about what frameworks to use for our web app. We know
+that we will use the three main languages to begin with: HTML, CSS, and JavaScript.
+But anything beyond that we are currently unsure of.
+
+#### What We're Going to Do:
+
+We’re going to come up with meeting times, so we can discuss details and work on
+the project together in person. We will also find time to have a one on one
+meeting with Professor Stolley.
