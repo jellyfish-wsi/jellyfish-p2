@@ -1,5 +1,19 @@
 # Weekly Progress
 
+## Week of February 24
+
+For this alpha stage, we have decided that we will be asking the users for a custom name of their trip, where their trip will be, and the dates of the trip (from x date to x date). Following that, they are then able to input what transportation method they will use. If their mode of transportation will be by road (driving) or rail (train), they are able to input their own information as a string. However, if they choose the mode as air, that’s where our flight API will come in. From there, they will enter the flight number and the API will pull in the information for our users. Basically the flow of data from the API will consist of departures and arrivals, flight status by flight number and date, flight departure dates by flight number in a range, flight status by just flight number, flight departure dates by flight number, and flight delay stats by flight number. 
+
+Dasha was focused on the implementation of Google OAuth. For some reason, we kept hitting up an error where we would receive an error message that said “the page’s settings blocked the loading of a resource.” Dasha is trying to resolve this but after two days of working on it, we haven’t found the issue yet. We’ve followed the documentation on Google’s resource page, yet we keep on hitting this problem. We’re continuing our work on this and are learning as we go.
+
+So far, we have the basic skeletal files down based off the Express JS framework and the lectures from February 10 and 12. We have also established a ‘create a trip’ form in HTML and will continue working on the front end aspect. We will be getting some basic CSS put down in the next few days so that we have something a bit more tangible to show for progress next week.
+
+In regards to the database, we’ve been doing some reading on implementing this and have a list of resources we share among the three of us on Basecamp. We have no code for this yet, but we’re looking forward to the lecture regarding databases in next week’s lecture to help us with that.
+
+As for now, we are going over Stolley’s demo on connecting to an API together and we will be replicating what he taught with our AeroDataBox API (flight) through RapidAPI. We’ve done some basic interaction with the API, now it’s just the matter of organizing the code well and fitting it into our setup.
+
+As always, we are collaborating using Basecamp and our GitHub is https://github.com/jellyfish-wsi.
+
 ## Week of February 17
 
 This week, we took what we learned from Stolley’s lecture on using git and refreshed our memories. We also created a reference sheet on using Git so everyone in the group has an accessible reference based on Stolley’s workflow. Additionally, following what Stolley taught us, we have added rules/restrictions to who is allowed to push commits. Now, a commit cannot get pushed/merged without at least everyone’s approval in the group. Furthermore, we have established that we will use feature branches as we work to organize everything nicely.
