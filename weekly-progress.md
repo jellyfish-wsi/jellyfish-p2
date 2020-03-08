@@ -1,4 +1,16 @@
 # Weekly Progress
+## Week of March 2
+
+After the lecture about APIs on February 26, we have been working on connecting our flight API. Like we mentioned in our previous progress report, our API will pull the information of the user’s flight (e.g departures and arrival times, flight status, etc). We noticed that our API offered four different types of requests for Node.js. After consulting with Stolley, we are going to go with the native HTTP library for Node.js. We have inserted the function provided by our API host to connect to the flight API. Though, we still need to declare the API key on our own local environments. We’ve setup Mocha for project testing. 
+
+We are also in the process of starting up SQLite3 using the lecture video from this week. It has been added as a dependency in our package.json file. Currently our group is applying what we learned in our previous lecture about databases to guide us to make the proper connection between our project and our database. We created a folder called db to keep all the code related to the connection there.
+
+We are working on modeling our relational database within SQLite3. So far, we are certain that we will have a Users and Trip table. For the Trip table, the columns will consist of: trip_id, name, start_date, return_date, and transport_mode. In terms of the Users table, it will have user_id, name, and email. The final table we will have is transportation where we will focus on more specific details about the trip. The columns will consist of: trip_id, company_name, mode, status, and seat. 
+
+Throughout the week Dasha continued her work on carrying out the Google authentication and successfully got it to work. We have only applied it in its most basic form, so now we are looking to see how it would fit into the structure of Node.js. We plan to implement Passport (npm module) and use the passport-google-oauth20 as the strategy. With this, we will be able to authorize user accounts and create sessions as well. 
+
+We will also be creating a confirmation page for the users to view all the information they have entered when they create a trip. Later on we'll be adding form validations to make sure the user filled out all the requirements for the trip. 
+
 
 ## Week of February 24
 
