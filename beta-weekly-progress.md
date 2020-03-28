@@ -9,3 +9,9 @@ More specifically, we are in the process of fully implementing Passport to autho
 We will also be moving constant variables to our *.env* file. In the case of our *flight-data.js*, we’ll be applying this to variables: *hostname* and *x-rapidapi-host*.
 
 Moving forward we will be meeting with Professor Stolley sometime next week. We will also be scheduling our own meetings to discuss how we are going to move forward to complete the to do list.
+
+Here is a list of the milestones we have planned, with each of them potentially being a minor release:
+
+- Connecting the database to the web application (GET and POST of user information and trip data)
+- Completed implementation of Passport JS
+- Significant progress on interface (UI/UX)
