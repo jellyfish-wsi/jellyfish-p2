@@ -3,23 +3,21 @@
 ## Report for April 2
 Going off on Wednesday's lecture our group has decided to go with Linode Server for our web application. We all pitched in and purchased a basic server. Root has been disabled and everyone in the group has access as their own users for the server. The main user that we are going to run on is diana@45.79.41.156.
 
-*image here*
+![Linodes](screenshots/linode.png)
 
 On this server we have installed git version 2.20.1 and NodeJS. To add on to that, we have also enabled the firewall. On our SSH server, we installed fail2ban to protect our server. Nginx has been configured to allow both http and https on our pages. We will be running Nginx on Debian 10. In terms of maintenance with our server, we have made the decision to shut it down for now in order to save money and keep it secure. There was an issue trying to add authentication keys so we plan on working on adding them to keep our server more secure. 
 
-*image here*
+![Terminal](screenshots/terminal.png)
 
 We have also purchased a domain: jellyfish-web.us on active domain. When the server is up and running you would be able to use this link or the IP provided by Linode to reach our web server which in this case is nginx.
 
-*image here*
+![nginx](screenshots/nginx.png)
 
 GitHub was alerting us of security risks with our project with the dependencies we had. We discovered that a few dependencies weren’t updated and have since resolved the issues by updating everything in our package-lock.json to the latest version. 
 
 As mentioned in a previous comment on Basecamp from last week’s report, we have fully implemented Passport JS and have made improvements. Besides being fully functional, we have also tidied up the routers, and authentication functionalities are now under the `/auth` path. In addition to Passport, we’ve also included `connect-ensure-login` as a dependency. This is a light middleware which safeguards pages from being accessed if there is no user logged in. We had a slight hiccup with implementing this since a failure would redirect to the wrong page. However, we’ve resolved this and everything works fine now! We’ll be making a minor release for this.
 
-The next step in terms of user authentication is to have the user credentials match or registered to the database.
-
-As for our database, we are still in the process of transitioning from SQLite3 to mySQL. We are trying to get a script running to connect to a database that will be created to hold the user’s information. When we have the database connection, everyone will have it on their local environments. Then, we can proceed with adding user credentials for user authentication as mentioned above. 
+The next step in terms of user authentication is to have the user credentials match or registered to the database. However,  for our database, we are still in the process of transitioning from SQLite3 to mySQL. We are trying to get a script running to connect to a database that will be created to hold the user’s information. When we have the database connection, everyone will have it on their local environments. Then, we can proceed with adding user credentials for user authentication as mentioned above. 
 
 For the server we need to add a file to track the specific parts of etc/nginx and continue to config our Nginx. We will also be adding certbot to allow users to use https (to avoid the “Not secure” message).
 
