@@ -1,4 +1,31 @@
 # Weekly Progress
+##Report for April 9
+
+We have successfully gotten our database to connect. It also doesn’t hang now after connecting because it closes itself afterwards. Having added the database connection, everyone has it hosted on their own local environments as well (as mentioned in last week’s report). Our group is implementing *Sequelize* on our app to aid us in data migration and CRUD operations. *Sequelize* is an Object Relational Mapper which works with MySQL and NodeJS and makes the database code more efficient. We currently have a user hardcoded into our database just to test out whether it was working or not. Just like when we were using SQLite3, we still have 3 tables: Users, Trips, and Transportation. 
+
+Connecting and closing the database. 
+
+
+RUNNING `npm run dstart` 
+
+
+After starting up mysql
+
+
+The image shows our three tables: Transportation, Trips, and Users 
+Jane Doe is the hardcoded user. 
+
+In addition to that, we tagged our first beta pre-release for the complete implementation of Passport. 
+
+Now, we can proceed with adding the user credentials (from the user authentication) to the database, as mentioned above. Once we’ve connected the user authentication, we will be doing another patch release. 
+
+On the server side, we are having trouble connecting our domain to our HTML file on our server. Currently, we have created a new directory in the nginx directory called `jellyfish-web.us.conf.` We have tried to reboot the server to see if this would help but it didn’t help, so we are going to continue to troubleshoot. 
+This is what’s currently inside of jellyfish-web.us.conf
+
+
+
+
+
 
 ## Report for April 2
 Going off on Wednesday's lecture our group has decided to go with Linode Server for our web application. We all pitched in and purchased a basic server. Root has been disabled and everyone in the group has access as their own users for the server. The main user that we are going to run on is diana@45.79.41.156.
