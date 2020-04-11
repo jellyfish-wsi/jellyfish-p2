@@ -12,6 +12,7 @@ RUNNING `npm run dstart`
 
 
 After starting up mysql
+
 ![Database](screenshots/db3.png)
 
 
