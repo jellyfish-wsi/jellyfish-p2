@@ -4,12 +4,15 @@
 We have successfully gotten our database to connect. It also doesn’t hang now after connecting because it closes itself afterwards. Having added the database connection, everyone has it hosted on their own local environments as well (as mentioned in last week’s report). Our group is implementing *Sequelize* on our app to aid us in data migration and CRUD operations. *Sequelize* is an Object Relational Mapper which works with MySQL and NodeJS and makes the database code more efficient. We currently have a user hardcoded into our database just to test out whether it was working or not. Just like when we were using SQLite3, we still have 3 tables: Users, Trips, and Transportation. 
 
 Connecting and closing the database. 
+![Database](screenshots/db1.png)
 
 
 RUNNING `npm run dstart` 
+![Database](screenshots/db2.png)
 
 
 After starting up mysql
+![Database](screenshots/db3.png)
 
 
 The image shows our three tables: Transportation, Trips, and Users 
@@ -22,6 +25,7 @@ Now, we can proceed with adding the user credentials (from the user authenticati
 On the server side, we are having trouble connecting our domain to our HTML file on our server. Currently, we have created a new directory in the nginx directory called `jellyfish-web.us.conf.` We have tried to reboot the server to see if this would help but it didn’t help, so we are going to continue to troubleshoot. 
 This is what’s currently inside of jellyfish-web.us.conf
 
+![Server](screenshots/server.png)
 
 
 
