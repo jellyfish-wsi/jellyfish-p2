@@ -1,5 +1,5 @@
 # Weekly Progress
-##Report for April 9
+## Report for April 9
 
 We have successfully gotten our database to connect. It also doesn’t hang now after connecting because it closes itself afterwards. Having added the database connection, everyone has it hosted on their own local environments as well (as mentioned in last week’s report). Our group is implementing *Sequelize* on our app to aid us in data migration and CRUD operations. *Sequelize* is an Object Relational Mapper which works with MySQL and NodeJS and makes the database code more efficient. We currently have a user hardcoded into our database just to test out whether it was working or not. Just like when we were using SQLite3, we still have 3 tables: Users, Trips, and Transportation. 
 
